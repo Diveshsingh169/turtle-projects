@@ -6,7 +6,7 @@ speed(0)
 hideturtle()
 
 # the colors being used (change them as you wish!)
-Colors = ["yellow", "purple", "yellow", "purple"]
+Colors = ["yellow", "red", "blue", "green"]
 
 # repeat x times times
 x = 100
@@ -20,4 +20,5 @@ for i in range(x):
         circle(200-i, 100)
         rt(60)
 
+done()
 # this was more for me to figure out how forking/pull requests work on github, but i hope you enjoy this simple flower 💕
